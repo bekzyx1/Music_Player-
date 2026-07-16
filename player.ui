@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>867</width>
+    <height>656</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget {
+	border-image: url(:/images/r.png);
+}</string>
+   </property>
+   <widget class="QFrame" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>323</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="styleSheet">
+        <string notr="true">QListWidget {
+	color: white;
+	background-color: rgba(135, 195, 195, 40);
+
+	border: 1px solid rgba(255, 255, 255, 30);
+	border-radius: 7px;
+
+	padding: 7px;
+	outline: none;
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+color: white;
+font-weight: bold;
+font-size: 15pt;
+background-color:  rgba(105, 105, 105, 155);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+width: 95px;
+height: 45px;
+}
+
+QPushButton:hover {
+background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+	background-color: rgba(195, 195, 215, 50);
+}</string>
+         </property>
+         <property name="text">
+          <string>Add</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+color: white;
+font-weight: bold;
+font-size: 15pt;
+background-color:  rgba(105, 105, 105, 155);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+width: 95px;
+height: 45px;
+}
+
+QPushButton:hover {
+background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+	background-color: rgba(195, 195, 215, 50);
+}</string>
+         </property>
+         <property name="text">
+          <string>Remove</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QFrame" name="">
+       <property name="styleSheet">
+        <string notr="true">background-color: none;</string>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+color: white;
+font-size: 35pt;
+background-color:  rgba(255, 255, 255, 30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+width: 95px;
+height: 45px;
+}
+
+QPushButton:hover {
+background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+	background-color: rgba(195, 195, 215, 50);
+}</string>
+          </property>
+          <property name="text">
+           <string>&lt;</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+color: white;
+font-weight: bold;
+font-size: 15pt;
+background-color:  rgba(255, 255, 255, 30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+width: 95px;
+height: 45px;
+}
+
+QPushButton:hover {
+background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+	background-color: rgba(195, 195, 215, 50);
+}</string>
+          </property>
+          <property name="text">
+           <string>Play</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+color: white;
+font-size: 35pt;
+background-color:  rgba(255, 255, 255, 30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+width: 95px;
+height: 45px;
+}
+
+QPushButton:hover {
+background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+	background-color: rgba(195, 195, 215, 50);
+}</string>
+          </property>
+          <property name="text">
+           <string>&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../b3163b49/player.qrc"/>
+ </resources>
+ <connections/>
+</ui>
